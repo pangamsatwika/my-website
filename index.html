@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satwika's Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Satwika's Website</div>
+        <ul class="nav-links">
+            <li><a href="#home" class="anchor-link">Home</a></li>
+            <li><a href="#about" class="anchor-link">About Us</a></li>
+            <li><a href="#product" class="anchor-link">Products</a></li>
+            <li><a href="#contact" class="anchor-link">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="hero" id="home">
+        <h1>Welcome to Satwika's Website</h1>
+        <p>Welcome to our online store! Explore a wide range of products with great quality and affordable prices.
+        Browse our collection, discover your favorite products, and enjoy a simple and convenient shopping experience.</p>
+        <a href="#product">
+            <button type="button">Explore Products</button>
+        </a>
+    </div>
+    <section class="about" id="about">
+        <div class="about-container">
+            <div class="about-image">
+                <img src="C:\Users\satwi\OneDrive\Desktop\CSS\images.jpg" alt="About our company">
+            </div>
+            <div class="about-content">
+                <h4>About Us</h4>
+                <h1>We Build Ideas into Reality With Our Team</h1>
+                <p>We are an online shopping platform dedicated to providing a wide variety of products at affordable prices. Our goal is to make shopping easy, convenient, and enjoyable for everyone. We offer quality products, a user-friendly website, and a smooth browsing experience to help customers find their favorite items. We believe in customer satisfaction and aim to make every shopping experience simple and reliable.
+                </p>
+                <a href="#contact" class="about-btn">Learn More</a>
+            </div>
+        </div>
+    </section>
+    <h1 class="product-head" id="product">Our Products</h1>
+    <div class="product-container">
+        <div class="product-card">
+            <img src="C:\Users\satwi\OneDrive\Desktop\CSS\images (2).jpg" alt="Headphones">
+            <h3>Headphones</h3>
+            <p>High Quality Products</p>
+            <h4>₹1,600.00</h4>
+            <button type="button" onclick="location.href='#contact'"> Buy Now</button>
+        </div>
+        <div class="product-card">
+            <img src="C:\Users\satwi\OneDrive\Desktop\CSS\Fujifilm-Instax-Mini-SE-Fun-Pack-Instant-Camera-Blue-Online-Buy-in-India_1.jpg" alt="Instant Camera">
+            <h3>Instant Camera</h3>
+            <p>High Quality Products</p>
+            <h4>₹2,000.00</h4>
+            <button type="button" onclick="location.href='#contact'"> Buy Now </button>
+        </div>
+        <div class="product-card">
+            <img src="C:\Users\satwi\OneDrive\Desktop\CSS\images (3).jpg" alt="Speaker">
+            <h3>Speaker</h3>
+            <p>High Quality Products</p>
+            <h4>₹1,500.00</h4>
+            <button type="button" onclick="location.href='#contact'"> Buy Now </button>
+        </div>
+    </div>
+    <section class="contact-section" id="contact">
+        <h1>Contact Us</h1>
+        <p>Please fill in your details below.</p>
+        <form>
+            <label for="customerName">Customer Name:</label>
+            <input type="text" id="customerName" name="customerName" placeholder="Enter your name" required>
+            <br><br>
+            <label for="customerAddress">Customer Address:</label>
+            <textarea id="customerAddress" name="customerAddress" placeholder="Enter your address" required></textarea>
+            <br><br>
+            <label for="companyName">Company Name:</label>
+            <input type="text" id="companyName" name="companyName" placeholder="Enter company name" required>
+            <br><br>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-box">
+                <h2>Satwika's Website</h2>
+                <p>Welcome to Satwika's Website. We provide quality products to our customers at affordable prices.
+                </p>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#product">Products</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p>Email: satwikawebsite@gmail.com</p>
+                <p>Phone: +91 7995261219</p>
+                <p>Location: HSR Layout, Bangalore,
+                    Karnataka, India
+                </p>
+            </div>
+            <div class="footer-media">
+                <h3>Follow Us</h3>
+                <a href="https://www.instagram.com/"
+                   aria-label="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://www.facebook.com/"
+                   aria-label="Facebook">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="https://www.youtube.com/"
+                   aria-label="YouTube">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>© 2026 MyWebsite. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
