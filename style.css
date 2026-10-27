@@ -184,6 +184,10 @@ padding: 0;
     transform: translateY(-5px);
     background-color: #d0f0c0;
 }
+.contact{
+    text-align: center;
+    color: #355e3b ;
+}
 .contact-section{
     width: 500px;
     padding: 30px;
