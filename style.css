@@ -189,8 +189,8 @@ padding: 0;
     color: #355e3b ;
 }
 .contact-section{
-    width: 500px;
-    padding: 30px;
+    width: 400px;
+    padding: 25px;
     margin-left: 30%;
     border: black;
     background-color: #ddf2d1;
@@ -215,13 +215,14 @@ padding: 0;
     width: 100%;
 }
 .contact-section button{
-    width: 100%;
+    display: block;
+    width: 60%;
     background: #2e8b57;
     border-radius: 5px;
     padding: 12px;
-    margin-top: 20px;
+    margin: 20px auto;
     color: white;
-    margin-top: 20px;
+    
 }
 .contact-section button:hover{
     background-color: #f0fff0;
