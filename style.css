@@ -189,9 +189,10 @@ padding: 0;
     color: #355e3b ;
 }
 .contact-section{
-    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 25px;
-    margin-left: 30%;
     border: black;
     background-color: #ddf2d1;
     border-radius: 8px;
@@ -199,28 +200,32 @@ padding: 0;
 .contact-section h1{
     text-align: center;
     color: #355e3b;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 .contact-section p{
     text-align: center;
     margin-bottom: 10px;
 }
 .contact-section label{
-    display: block;
-    margin-top: 15px;
+    display: flex;
+    text-align: center;
+    margin-top: 5px;
     margin-bottom: 5px;
 }
 .contact-section input,
 .contact-section textarea{
-    width: 100%;
+    text-align: center;
+    width: 250px;
+    margin-right: 15px;
+    padding: 3px;
 }
 .contact-section button{
     display: block;
-    width: 60%;
+    width: 80px;
     background: #2e8b57;
     border-radius: 5px;
-    padding: 12px;
-    margin: 20px auto;
+    padding: 8px;
+    margin: 15px auto;
     color: white;
     
 }
